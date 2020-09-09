@@ -1,7 +1,7 @@
-## Laravel UI for home cinema created with ❤
+## Laravel UI for TV Channels created with ❤
 
 Details: <br />
      - Two branches: English(Original) and Arabic <br />
-     - Dark theme <br />
+     - Light theme <br />
      - Modern design <br />
      - Easy to integrate with REST API <br />
