@@ -6,7 +6,7 @@
         <div class="title">
             <br>
             <br>
-            <h1 class="text-dark pb-3">Trending</h1>
+            <h1 class="text-dark pb-3">{{ __('tr.trending') }}</h1>
         </div>
         <div id="demo" class="carousel slide">
 
@@ -59,7 +59,7 @@
         <div class="title">
             <br>
             <br>
-            <h1 class="text-dark">Continue Watching</h1>
+            <h1 class="text-dark">{{ __('tr.continue_watching') }}</h1>
         </div>
         <div class="row wow fadeIn">
             <div class="col-lg-3 col-xs-2 p-4">
@@ -145,7 +145,7 @@
         <div class="title">
             <br>
             <br>
-            <h1 class="text-dark">BeIN Sport</h1>
+            <h1 class="text-dark">{{ __('tr.bein_sport') }}</h1>
         </div>
         <div class="row wow fadeIn">
             <div class="col-lg-3 col-xs-2 p-4">
@@ -259,7 +259,7 @@
         <div class="title">
             <br>
             <br>
-            <h1 class="text-dark">Explore</h1>
+            <h1 class="text-dark">{{ __('tr.top_channels') }}</h1>
         </div>
         <div class="row wow fadeIn">
             <div class="col-lg-3 col-xs-2 p-4">

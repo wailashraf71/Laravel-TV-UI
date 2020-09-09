@@ -1224,9 +1224,6 @@ ul {
         width: auto;
     }
 
-    .header__nav-item:last-child {
-        margin: 0;
-    }
 
     .header__nav-link {
         line-height: 90px;

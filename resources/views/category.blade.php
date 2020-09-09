@@ -6,7 +6,7 @@
         <div class="title">
             <br>
             <br>
-            <h1 class="text-dark text-capitalize">{{Request::segment(1)}}</h1>
+            <h1 class="text-dark text-capitalize">{{ __('tr.'. Request::segment(1))}}</h1>
         </div>
         <div class="row wow fadeIn">
             <div class="col-lg-3 col-xs-2 p-4">
