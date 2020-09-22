@@ -2,14 +2,14 @@
 
 @section('content')
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="title">
             <br>
             <br>
-            <h1 class="text-dark text-capitalize">{{Request::segment(1)}}</h1>
+            <h1 class="text-light text-capitalize">{{Request::segment(1)}}</h1>
         </div>
         <div class="row wow fadeIn">
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -18,13 +18,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -33,13 +33,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -48,13 +48,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -63,13 +63,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -78,13 +78,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -93,13 +93,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -108,13 +108,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -123,13 +123,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -138,13 +138,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -153,7 +153,7 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>

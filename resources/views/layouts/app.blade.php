@@ -27,7 +27,7 @@
 <!-- Header -->
 <header class="header">
     <div class="header__wrap">
-        <div class="container-fluid">
+        <div class="container-fluid" style="padding: 0 !important;">
             <div class="row">
                 <div class="col-12">
                     <div class="header__content">

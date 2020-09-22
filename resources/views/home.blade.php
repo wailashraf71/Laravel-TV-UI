@@ -2,11 +2,11 @@
 
 @section('content')
 
-    <div class="slideshow container">
+    <div class="slideshow container-fluid">
         <div class="title">
             <br>
             <br>
-            <h1 class="text-dark pb-3">Trending</h1>
+            <h1 class="text-light pb-3">Trending</h1>
         </div>
         <div id="demo" class="carousel slide">
 
@@ -55,14 +55,14 @@
 
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="title">
             <br>
             <br>
-            <h1 class="text-dark">Continue Watching</h1>
+            <h1 class="text-light">Continue Watching</h1>
         </div>
         <div class="row wow fadeIn">
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/1')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -71,13 +71,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">MBC IRAQ</h5>
+                            <h5 class="text-light card-new-title">MBC IRAQ</h5>
                             <h6 class="sub-title">TV SPORT</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -86,13 +86,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">MBC IRAQ</h5>
+                            <h5 class="text-light card-new-title">MBC IRAQ</h5>
                             <h6 class="sub-title">TV SPORT</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/1')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -101,13 +101,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">MBC IRAQ</h5>
+                            <h5 class="text-light card-new-title">MBC IRAQ</h5>
                             <h6 class="sub-title">TV SPORT</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/1')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -116,13 +116,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">MBC IRAQ</h5>
+                            <h5 class="text-light card-new-title">MBC IRAQ</h5>
                             <h6 class="sub-title">TV SPORT</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/1')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -131,7 +131,7 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">MBC IRAQ</h5>
+                            <h5 class="text-light card-new-title">MBC IRAQ</h5>
                             <h6 class="sub-title">TV SPORT</h6>
                         </div>
                     </div>
@@ -141,14 +141,14 @@
 
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="title">
             <br>
             <br>
-            <h1 class="text-dark">BeIN Sport</h1>
+            <h1 class="text-light">BeIN Sport</h1>
         </div>
         <div class="row wow fadeIn">
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -157,13 +157,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">BEIN SPORT</h5>
+                            <h5 class="text-light card-new-title">BEIN SPORT</h5>
                             <h6 class="sub-title">TV SPORT</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -172,13 +172,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">BEIN SPORT</h5>
+                            <h5 class="text-light card-new-title">BEIN SPORT</h5>
                             <h6 class="sub-title">TV SPORT</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -187,13 +187,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">BEIN SPORT</h5>
+                            <h5 class="text-light card-new-title">BEIN SPORT</h5>
                             <h6 class="sub-title">TV SPORT</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -202,13 +202,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">BEIN SPORT</h5>
+                            <h5 class="text-light card-new-title">BEIN SPORT</h5>
                             <h6 class="sub-title">TV SPORT</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -217,13 +217,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">BEIN SPORT</h5>
+                            <h5 class="text-light card-new-title">BEIN SPORT</h5>
                             <h6 class="sub-title">TV SPORT</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -232,13 +232,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">BEIN SPORT</h5>
+                            <h5 class="text-light card-new-title">BEIN SPORT</h5>
                             <h6 class="sub-title">TV SPORT</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -247,7 +247,7 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">BEIN SPORT</h5>
+                            <h5 class="text-light card-new-title">BEIN SPORT</h5>
                             <h6 class="sub-title">TV SPORT</h6>
                         </div>
                     </div>
@@ -255,14 +255,14 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="title">
             <br>
             <br>
-            <h1 class="text-dark">Explore</h1>
+            <h1 class="text-light">Explore</h1>
         </div>
         <div class="row wow fadeIn">
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -271,13 +271,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -286,13 +286,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -301,13 +301,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -316,13 +316,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -331,13 +331,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -346,13 +346,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -361,13 +361,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -376,13 +376,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -391,13 +391,13 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-xs-2 p-4">
+            <div class="col-lg-2 col-xs-2 p-4">
                 <a href="{{url('/index/2')}}">
                     <div class="card channel">
                         <div class="card-body card-new-body align-self-center">
@@ -406,7 +406,7 @@
                                       alt=""></div>
                         </div>
                         <div class="card-footer border-0">
-                            <h5 class="text-dark card-new-title">Nickelodeon</h5>
+                            <h5 class="text-light card-new-title">Nickelodeon</h5>
                             <h6 class="sub-title">Kids</h6>
                         </div>
                     </div>

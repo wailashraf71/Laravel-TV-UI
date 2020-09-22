@@ -50,7 +50,7 @@ a, a:hover, a:focus {
 }
 
 body {
-    background-color: #f3f3f3 !important;
+    background-color: #161616 !important;
     color: #161616;
     text-align: start;
     overflow-x: hidden;
@@ -136,7 +136,9 @@ body {
 .poster-image:hover:before {
     opacity: 1;
 }
-
+.card {
+    background-color: #161616;
+}
 .card__play {
     position: absolute;
     display: flex;
@@ -236,15 +238,20 @@ body {
     margin-top: 0;
     width: 100%;
     max-width: 300px;
-    min-width: 200px;
-    height: 200px;
+    min-width: 185px;
+    height: 175px;
     border: 0;
+}
+
+.container-fluid{
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .channel:hover {
     margin-top: -10px;
     transition: 0.3s ease;
-    box-shadow: 0 5px 15px 2px #bbbaba4d;
+    box-shadow: 0 5px 15px 2px #151515;
 }
 
 .wow {
@@ -252,7 +259,7 @@ body {
 }
 
 .card-footer {
-    background-color: rgb(255 255 255);
+    background-color: #1E1E1E;
 }
 
 @media only screen and (min-width: 400px) {
@@ -777,7 +784,7 @@ ul {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #2b2b31;
+    background-color: #1E1E1E;
     z-index: 101;
     box-shadow: 0 -5px 25px 0 rgba(0, 0, 0, 0.065);
 }
@@ -788,7 +795,7 @@ ul {
     align-items: center;
     height: 70px;
     padding: 0 15px;
-    background-color: #ffffff;
+    background-color: #1E1E1E;
     width: 140px;
 }
 
@@ -932,7 +939,7 @@ ul {
 
 .header__wrap {
     position: relative;
-    background-color: #ffffff;
+    background-color: #1E1E1E;
     z-index: 2;
 }
 
@@ -1598,7 +1605,7 @@ ul {
 	Footer
 ==============================*/
 .footer {
-    background-color: #ffffff;
+    background-color: #1E1E1E;
     display: block;
     position: relative;
     overflow: hidden;
@@ -1608,7 +1615,7 @@ ul {
 }
 
 .footer__title {
-    color: #343a40 !important;
+    color: rgba(255, 255, 255, 0.49) !important;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.025em;
@@ -1631,7 +1638,7 @@ ul {
 
 .footer__list a {
     font-size: 14px;
-    color: #1e1d227d;
+    color: #7d8389;
     font-weight: 600;
 }
 
@@ -1713,7 +1720,7 @@ ul {
     justify-content: center;
     align-items: flex-start;
     margin-top: 15px;
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(186, 186, 186, 0.05);
     padding-top: 30px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -1724,7 +1731,7 @@ ul {
 }
 
 .footer__copyright small a {
-    color: #343a40a8;
+    color: rgba(222, 227, 232, 0.66);
 }
 
 .footer__copyright small a:hover {
@@ -2313,22 +2320,22 @@ ul {
     border: 0;
     border-right: none;
     border-radius: 50px 0 0 50px;
-    color: rgba(52, 58, 64, 0.82);
-    background-color: #f3f3f3;
+    color: #f3f3f3;
+    background-color: #161616;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .searchTerm::placeholder {
-    color: #343a4073;
+    color: #f3f3f3;
 }
 
 .searchButton {
     width: 90px;
-    border: 1px solid #f3f3f3;
-    background: #f3f3f3;
+    border: 1px solid #161616;
+    background: #161616;
     text-align: center;
-    color: #343a4073;
+    color: #f3f3f3;
     border-radius: 0 50px 50px 0;
     cursor: pointer;
     font-size: 15px;
